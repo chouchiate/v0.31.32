@@ -14,6 +14,7 @@ python3 -m esptool -b 921600 --after hard_reset write_flash --flash_mode dio --f
 ```
 
 ## Flash the vblu_production provision config
+
 ```
 python3 ./script/flash_provision_config.py ./script/provision_config_vblu_production.json
 ```
